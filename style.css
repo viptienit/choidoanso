@@ -79,16 +79,16 @@ header {
     font-weight: 600;
     margin-bottom: 50px;
   }
+  section p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+  }
 }
 .right {
   margin-left: 5px;
 }
 
-section p {
-  font-weight: 700;
-  font-size: 14px;
-  margin-top: 20px;
-}
 .again {
   top: 5px;
   left: 5px;
@@ -120,5 +120,10 @@ section p {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 50px;
+  }
+  section p {
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 20px;
   }
 }
