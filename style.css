@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+body {
+  background-color: rgb(36, 36, 36);
+  color: rgb(233, 233, 233);
+}
+main {
+  display: flex;
+}
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  height: 45vh;
+  border-bottom: 5px solid white;
+}
+.again,
+.between,
+.number {
+  position: absolute;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.between {
+  font-size: 18px;
+  font-weight: 600;
+  top: 10px;
+  right: 20px;
+  margin-left: 300px;
+}
+
+.number {
+  bottom: -70px;
+  font-size: 60px;
+  padding: 30px 60px;
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}
+.box {
+  width: 50vw;
+  margin-top: 80px;
+}
+.left {
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .guess {
+    height: 90px;
+    width: 250px;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+  }
+  .btn {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 40px;
+  }
+  h1 {
+    font-size: 42px;
+    margin: auto 0;
+  }
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+}
+.right {
+  margin-left: 5px;
+}
+
+section p {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.again {
+  top: 5px;
+  left: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .guess {
+    height: 90px;
+    width: 40vw;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+  }
+
+  .btn {
+    width: 40vw;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px auto;
+  }
+  h1 {
+    font-size: 30px;
+    margin: auto 0;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+}
